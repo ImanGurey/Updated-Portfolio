@@ -10,6 +10,8 @@ My updated portfolio includes links to my GitHub & LinkedIn profile page, as wel
 This application is hosted on Heroku! Click the link below for a demo!
 
 
+https://imangurey.github.io/Updated-Portfolio/
+
 
 
 Adding a link of friendfinder app:   
