@@ -1,64 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Iman Gure</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+<title>Iman Gure</title>
+<!-- Animate CSS CDN -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+<!--GoogleFonts-->
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,700,800,900" rel="stylesheet">
+<!--Font Awesome Icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Normalize CSS-->
+<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css">
+<!--Grid CSS-->
+<link rel="stylesheet" type="text/css" href="./assets/css/grid.css">
+<!--Devicon-->
+<link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<!--My CSS-->
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<!--My Media Queries-->
+<link rel="stylesheet" type="text/css" href="./assets/css/queries.css ">
+<!--Animate css-->
+<link rel="stylesheet" href="./assets/css/animate.css">
+<link rel="stylesheet" href="./assets/css/nouse.css">
+
 </head>
 
 <body>
-
-    <nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand pl-3" href="index.html">Iman Gure</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+    <!--Header and Nav-->
+    <header>
+        <nav>
+            <div class="row">
+                <ul class="main-nav js--main-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/" target="_blank">Resume</a>
+                    </li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon">
+                    <ion-icon name="menu" class="mobile-menu"></ion-icon>
+                </a>
             </div>
+        </nav>
+
+
+
+        <div class="flex">
+
+            <div class="text">
+                Hello, I'm <span class="highlight">Iman Gure</span>.
+                <br>
+                I'm a full-stack web developer.
+            </div>
+            <!-- <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div>
+        </div> -->
+    </header>
+
+
+    <!--about area starts-->
+
+    <div class="about-area section-padding" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                    <div class="about-text-left">
+                        <h2>About Me</h2>
+                        <!--edit name-->
+                        <h3>Full-Stack Web Developer</h3>
+                        <!--edit designation-->
+                        <br> Hello,</br>
+                        <p>I'm extremely driven and creative, I have serious passion for UI effects, animations and
+                            creating intuitive, dynamic user experiences. Full Stack Developer who is currently open for
+                            career opportunities as a
+                            front-end or back-end web Developer in the Great Seattle Area.
+                            I'm a recent graduate of UW Coding-Bootcamp, I'm capable for opportunities to
+                            further expand my skills and grow as a Developer.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <img class="profile-pic" src="#" class="img-responsive img-fluid" alt="">
+                    <!--add your image here-->
+                </div>
+
+                <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
+                    <div class="about-text-right">
+
+                        <div id="skills">
+
+                            <!-- <h3>My Skills</h3> -->
+
+                            <div class="row">
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="95%">
+                                        <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">HTML, CSS, Bootstrap</h6>
+                                        <!--edit skills-->
+                                        <h6 class="skillbar-percent">95%</h6>
+                                        <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="90%">
+                                        <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">Git, Github, Visual Studio</h6>
+                                        <!--edit skills-->
+                                        <h6 class="skillbar-percent">90%</h6>
+                                        <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="85%">
+                                        <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">Javascript, jQuery, AJAX</h6>
+                                        <!--edit skills-->
+                                        <h6 class="skillbar-percent">85%</h6>
+                                        <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="75%">
+                                        <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">Node.js, Express.js, MySQL, Sequelize React.js</h6>
+                                        <!--edit skills-->
+                                        <h6 class="skillbar-percent">85%</h6>
+                                        <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                                <div class="col-md-12">
+
+                                    <!-- skillbar -->
+                                    <div class="skillbar" data-percent="70%">
+                                        <!--edit percentage-->
+
+                                        <h6 class="skillbar-title">Handlebars.js, ORM, MongoDB, </h6>
+                                        <!--edit skills-->
+                                        <h6 class="skillbar-percent">75%</h6>
+                                        <!--edit percentage-->
+
+                                        <div class="skillbar-bar">
+                                            <div class="skillbar-child"></div>
+                                        </div>
+
+                                    </div>
+                                    <!-- end skillbar -->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
         </div>
-    </nav>
+    </div>
+
+    <!--Portfolio Section-->
+    <section class="section-portfolio" id="portfolio">
+        <div class="row">
+            <h2 class="portSection">Projects</h2>
+        </div>
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/Screen Shot 2019-07-22 at 7.47.22 PM.png"
+                        alt="Project-2">
+
+                    <div class="text">
+                        <div class="bold">Traveling Table</div>
+                        <span class="highlight"> Project-2
+                            created with javascript, node.js, express.js,
+                            mysql,boostsrap,jQuery,passport,animation.css,handlebars.</span>
+                    </div>
+            </li>
+            <li>
+                <!-- add id second, third, etc project -->
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/IMG_6693.jpg" alt="Train Scheduler">
+
+                    <div class="text">
+                        <div class="bold">Train-Scheduler</div>
+                        <span class="highlight"> JavaScript Firebase & Moment.Js</span>
+                    </div>
+            </li>
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/clickygame.png" alt="Clicky-Game">
+
+                    <div class="text">
+                        <div class="bold">Clicky-Game</div>
+                        <span class="highlight">React.js, JSX, ES6, Bootstrap, CSS</span>
+                    </div>
+            </li>
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/IMG_6696.jpg" alt="Bootsrap Portfolio">
+
+                    <div class="text">
+                        <div class="bold">Bootstrap-Portfolio</div>
+                        <span class="highlight">Bootstrap Framework</span>
+                    </div>
+            </li>
+        </ul>
+
+        <ul class="portfolio-showcase clearfix">
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/Screen Shot-P3.png" alt="Third-Project">
+
+                    <div class="text">
+                        <div class="bold">Scheduling App</div>
+                        <span class="highlight">created with javascript, React.js, Node.js, Express.js,
+                            mysql,React-Boostrap-with-Material-Design,passport,animation.css</span>
+                    </div>
+            </li>
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/friendfinder.png" alt="Friend-Finder">
+
+                    <div class="text">
+                        <div class="bold">Friend-Finder</div>
+                        <span class="highlight"> HTML5, Bootstrap, CSS, Node.js, Express.js</span>
+                    </div>
+            </li>
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/IMG_6692.jpg" alt="Hangman">
+
+                    <div class="text">
+                        <div class="bold">Hangman</div>
+                        <span class="highlight">HTML,CSS, JavaScript & Bootsrap</span>
+                    </div>
+            </li>
+            <li>
+                <div class="card portPhoto" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/images/IMG_6694.jpg" alt="TRIVIA">
+
+                    <div class="text">
+                        <div class="bold">Travia-Game</div>
+                        <span class="highlight"> JavaScript And Bootsrap</span>
+                    </div>
+        </ul>
+    </section>
 
 
-    <div class="container pb-5">
-        <div>
-            <h1 class="ml-1">&lt About Me &gt</h1>
-            <img class="square_image mt-3" src="assets/images/abstract-futuristic-molecules-technology-polygonal-260nw-739595833.webp" alt="Iman Gure" width="400px">
-            <div class="paragraph mt-4">
-                <p> Hello! I’m an extremely driven and creative Full Stack Developer
-                    who is currently open for career opporturnities as a front-end or
-                    back-end web Developer in the Great Seattle Area.</p>
-                <p> I'm a recent graduate of UW coding-bootcamp that teaches Full Stacks in 12 weeks, I'm capable
-                    for opporturnities to further expand my skills and grow as a
-                    Developer.</p>
+    <!--Modals-->
+    <div id="portfolioModal1" class="modal-background modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2 id="project-header-name"></h2>
+            </div>
+
+            <div class="modal-body">
+                <p id="project-body"></p>
+            </div>
+            <br>
+            <div class="modal-footer">
+                <h3>
+                    <a id="href-link" target="_blank"></a>
+                </h3>
             </div>
         </div>
     </div>
 
-    <div class="card fixed-bottom mt-5">
-        <div class="card-header text-center">
-            Copyright 2019
+    <!--Skills-->
+    <section class="section-skills" id="skills">
+        <div class="row skillTitle">
+            <h2>
+                <span>My Skills.</span>
+            </h2>
+        </div>
+
+        <div class="container">
+
+            <!--First skillset Row-->
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-html5-plain fa-5x  mt-2 s" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">HTML</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-css3-plain fa-5x  mt-2" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">CSS</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-bootstrap-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">BOOTSTRAP</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-javascript-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">JAVASCRIPT</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Second skillset Row-->
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-jquery-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">JQuery</h5>
+                    </div>
+                </div>
+
+                <div class="skillset">
+                    <span>
+                        <i class="devicon-react-original fa-5x mt-3" aria-hidden="true"></i>
+                    </span>
+                    <h5 class="skill_name">React.js</h5>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-git-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">GIT</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-github-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">GitHub</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mysql-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">MySQL</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mongodb-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">MongoDB</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Third skillset Row-->
+
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-nodejs-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Node JS</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-sequelize-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Sequelize</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-express-original fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Express</h5>
+                    </div>
+                </div>
+
+                <div class="col span-1-of-4 box">
+                    <div class="skillset">
+                        <span>
+                            <i class="devicon-mocha-plain fa-5x mt-3" aria-hidden="true"></i>
+                        </span>
+                        <h5 class="skill_name">Mocha</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact-area section-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                        <p class="line-one"></p>
+                        <h2>Contact</h2>
+                        <p class="line-one"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.4s">
+                        <i class="fa fa-home"></i>
+                        <h2>Location</h2>
+                        <p>Greater Seattle Area </p><br>
+                        <!--edit here-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.6s">
+                        <i class="fa fa-phone"></i>
+                        <h2>Phone: </h2>
+                        <p>xxxxxxxx</p>
+                        <!--edit here-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.8s">
+                        <i class="fa fa-envelope-o"></i>
+                        <h2>Email</h2>
+                        <p>imangu99@gmail.com</p>
+                        <!--edit here-->
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="single-contact text-center wow fadeInDown" data-wow-delay="1s">
+                        <i class="fa fa-gg"></i>
+                        <h2>Social Media: </h2>
+                        <div class="socials">
+                            <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> -->
+                            <!--your facebook profile link here-->
+                            <a href="https://github.com/imangurey" target="_blank">
+                                <ion-icon name="logo-github" class="github"></ion-icon>
+                            </a>
+                            <!--your linkedin profile link here-->
+                            <a href="https://www.linkedin.com/in//" target="_blank">
+                                <ion-icon name="logo-linkedin" class="linkedin"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-googleplus" class="googleplus"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
-</div>
+    </div>
+
+
+    <!--Footer Area Starts-->
+    <footer>
+        <MDBRow className="d-flex align-items-center">
+            <MDBCol md="12" lg="12">
+                <p className="text-center text-md-left grey-text">
+                    &copy; Copyright 2019
+                    <b><em>Portfolio</em></b></a>
+                </p>
+            </MDBCol>
+            </div>
+            </div>
+            </div>
+            </div>
+    </footer>
+    <!--Footer Area Ends-->
+
+
+    <!--Ion Icons CDN-->
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+    <!--jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--jQuery Flip-->
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <!--WayPoints jQuery-->
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <!--Custom JavaScript-->
+    <script src="./assets/js/script.js"></script>
+
 </body>
 
 </html>
