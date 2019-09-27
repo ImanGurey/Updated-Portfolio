@@ -525,9 +525,6 @@ input[type=checkbox] {
 }
 
 
-
-
-
 .footer-nav li a:hover,
 .footer-nav li a:active {
     color: #ddd;
@@ -754,6 +751,30 @@ h1.ah-headline{
     padding: 5%;
 }
 
+div#contact.contact-area.section-padding{
+    background-color: #252934;
+    color: #fff
+    
+}
+
+#contact{
+    color:#ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+h2{
+    color: #ffffff;
+}
 /*-------- Contact area ends----------- */
 
 /*-------- 12. Brand area starts-----------*/
@@ -770,14 +791,5 @@ h1.ah-headline{
 }
 
 
-
-
-
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 
