@@ -794,3 +794,49 @@ h3,h3{
 
 
 
+/*Portfolio*/
+
+/*----------------------------------------------*/
+
+.section-portfolio {
+    margin-top: 20px;
+}
+
+.portfolio-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.portfolio-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.portPhoto {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.portPhoto img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.1s;
+    opacity: 0.9;
+}
+
+.portPhoto img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.portPhoto:after{
+    position: absolute;
+    content: attr(data-text);
+    color: white;
+}
