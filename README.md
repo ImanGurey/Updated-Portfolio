@@ -16,11 +16,6 @@ https://imangurey.github.io/Updated-Portfolio/
 
 Adding a link of friendfinder app:   
 
-https://imanfriendfinder1app.herokuapp.com/
-
-https://github.com/ImanGurey/FriendFinder
-
-
 Adding a lonk of TravelingTable app:
 
  https://github.com/kimkchau/TravellingTables
