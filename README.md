@@ -25,6 +25,8 @@ This application is hosted on Heroku! Click the link below for a demo!
  * https://github.com/kimkchau/TravellingTables
 
   * https://travellingtables.herokuapp.com/
+  
+  **Adding a link of Schedule2Work app:**
 
   * https://jl2cschedule2work.herokuapp.com/
 
