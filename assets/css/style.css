@@ -96,10 +96,9 @@ h2:after {
 
 header {
     background-size: cover;  
-    /* background-image:url("https://bashooka.com/wp-content/uploads/2018/04/scg-canvas-background-animation-1.jpg"); */
-    background-image: url("https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif");
+    background-image: url("https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif"); 
+    /* background-image: url("https://i.ytimg.com/vi/HPph35tdMP8/hqdefault.jpg"); */
     background-repeat: no-repeat;
-
     background-position: center;
     background-attachment: fixed;
     height: 100%;
