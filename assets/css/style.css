@@ -4,19 +4,6 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    background-color: #fff;
-    color: #555;
-    font-family: 'Raleway', 'Ariel', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-    
-
-}
-
 .clearfix {
     zoom: 1;
 }
@@ -364,53 +351,84 @@ div.skillbar-bar{
 
 /*-------About area css ends--------------*/
 
-
-/*Portfolio*/
-
-/*----------------------------------------------*/
-
-.section-portfolio {
-    margin-top: 20px;
+html,body{
+    height: 100%;
 }
 
-.portfolio-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.portfolio-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.portPhoto {
+body{
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333333;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #333333;
+    font-weight: 600;
+}
+
+p {
+    letter-spacing: 0;
+    line-height:1.8;
+}
+
+a{
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:focus{
+    outline:none;
+    text-decoration: none;
+}
+
+ul,li{
     margin: 0;
-    overflow: hidden;
-    background-color: #000;
+    padding: 0;
 }
 
-.portPhoto img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.1s;
-    opacity: 0.9;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-.portPhoto img:hover {
-    transform: scale(1.03);
-    opacity: 1;
+.section-padding{
+    padding: 60px 0;
 }
 
-.portPhoto:after{
-    position: absolute;
-    content: attr(data-text);
-    color: white;
+.section-header{
+    margin-bottom: 60px;
+    text-align: center;
 }
+
+.section-header h2 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.line-one {
+    height: 1px;
+    width: 100px;
+    background: #E91E63;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---Default css ends---*/
+
+
 
 /*Modals*/
 
@@ -594,23 +612,6 @@ footer  {
     left: calc(50vw - 75px);
 }
 
-/* .loader:before, .loader:after {
-    content: '';
-    border: 1em solid #E91E63;
-    border-radius: 50%;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
-    opacity: 0;
-}
-
-.loader:before {
-    animation-delay: .5s;
-} */
-
 @keyframes loader {
     0% {
         transform: scale(0);
@@ -778,25 +779,8 @@ h3,h3{
 }
 /*-------- Contact area ends----------- */
 
-/*-------- 12. Brand area starts-----------*/
-
-.brand-logo-img{
-    border:1px solid #ddd;
-    transition: all 300ms ease-in-out;
-    padding: 10px;
-}
-
-.brand-logo-img:hover{
-    border-color: transparent;
-    box-shadow: 0 20px 40px rgba(0,0,0,.2);
-}
-
-
-
 
 /*Portfolio*/
-
-/*----------------------------------------------*/
 
 .section-portfolio {
     margin-top: 20px;
@@ -811,7 +795,7 @@ h3,h3{
     display: block;
     float: left;
     width: 25%;
-}
+} 
 
 .portPhoto {
     width: 100%;
@@ -828,7 +812,7 @@ h3,h3{
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.1s;
     opacity: 0.9;
-}
+} 
 
 .portPhoto img:hover {
     transform: scale(1.03);
@@ -838,5 +822,95 @@ h3,h3{
 .portPhoto:after{
     position: absolute;
     content: attr(data-text);
-    color: white;
+    color: white;s
+} 
+
+
+/* Start Portfolio */
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
+.portfolio h2{
+  padding: 20px 0 ;
+}
+.portfolio p{
+  padding: 10px 0 30px 0 ;
+}
+.portfolio .our-work {
+  overflow: hidden;
+}
+
+.portfolio .our-work>div {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 10px;
+}
+
+.portfolio .our-work>div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 10px 10px #ccc;
+}
+/*End Portfolio */
+
+
+
+/*--------------Portfolio area Ends-----------*/
+#portfolio {
+		background-color: #00a0b0;
+}
+
+.portfolio-item .portfolio-link {
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		max-width: 400px;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+		background: rgba(204, 51, 63, 0.8);
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover:hover {
+		opacity: 1;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		height: 20px;
+		margin-top: -40px;
+		text-align: center;
+		font-size: 70px;
+		color: #fff;
+}
+
+.portfolio-hover .portfolio-hover-content i {
+		color: white;
+		z-index: 3;
+		margin-top: 132px;
+}
+
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+		margin: 0;
+}
+/* Styles for Modals */
+
+.project-space {
+		height: 700px;
+}
+
