@@ -10,23 +10,26 @@ My updated portfolio includes links to my GitHub & LinkedIn profile page, as wel
 This application is hosted on Heroku! Click the link below for a demo!
 
 
-https://imangurey.github.io/Updated-Portfolio/
+**https://imangurey.github.io/Updated-Portfolio/**
 
 
 
-Adding a link of friendfinder app:   
+**Adding a link of friendfinder app:**  
 
-https://imanfriendfinder1app.herokuapp.com/
+* https://github.com/ImanGurey/FriendFinder
 
-https://github.com/ImanGurey/FriendFinder
+* https://imanfriendfinder1app.herokuapp.com/
 
+**Adding a link of TravelingTable app:**
 
-Adding a lonk of TravelingTable app:
+ * https://github.com/kimkchau/TravellingTables
 
- https://github.com/kimkchau/TravellingTables
+  * https://travellingtables.herokuapp.com/
+  
+  **Adding a link of Schedule2Work app:**
 
-  https://travellingtables.herokuapp.com/
-
-  https://jl2cschedule2work.herokuapp.com/
+  * https://jl2cschedule2work.herokuapp.com/
+  
+  * https://github.com/JoeLearns2Code/Schedule2Work  
 
   
