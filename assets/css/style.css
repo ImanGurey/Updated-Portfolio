@@ -828,41 +828,37 @@ h3,h3{
 
 /* Start Portfolio */
 .portfolio {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 .portfolio h2{
-  padding: 20px 0 ;
+    padding: 20px 0 ;
 }
 .portfolio p{
-  padding: 10px 0 30px 0 ;
+    padding: 10px 0 30px 0 ;
 }
 .portfolio .our-work {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .portfolio .our-work>div {
-  float: left;
-  width: 33.333333%;
-  margin-bottom: 10px;
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 10px;
 }
 
 .portfolio .our-work>div img {
-  width: 92%;
-  margin: 10px;
-  padding: 3px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  box-shadow: 0px 10px 10px #ccc;
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 10px #ccc;
 }
-/*End Portfolio */
 
-
-
-/*--------------Portfolio area Ends-----------*/
 #portfolio {
-		background-color: #00a0b0;
+		background-color: #fe7886;
 }
 
 .portfolio-item .portfolio-link {
@@ -908,6 +904,10 @@ h3,h3{
 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
 		margin: 0;
 }
+
+/*--------------Portfolio area Ends-----------*/
+
+
 /* Styles for Modals */
 
 .project-space {
