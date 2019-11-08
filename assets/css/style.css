@@ -130,15 +130,6 @@ header {
     color: white;
 }
 
-
-
-/* @media screen and (min-width: 600px)
-<style>
-section {
-    line-height: 18pt;
-    padding: 100px 0 130px 0;
-} */
-
 .fa-angle-double-down:before {
     content: "\f103";
 } 
@@ -306,7 +297,7 @@ div {
 .about-text-left p{
     text-align: right;
     font-size: 13px;
-    color:white;
+    color: #222;
     margin-bottom: 50px;
 }
 
@@ -335,8 +326,11 @@ div {
     margin-bottom: 50px;
 }
 
-div.skillbar-bar{
-    background-color: #ff7884
+.skillbar {
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+    display: block
 }
 
 .skillbar .skillbar-title {
@@ -345,12 +339,13 @@ div.skillbar-bar{
 }
 
 .skillbar .skillbar-percent {
+    float: right;
     display: inline-block;
     vertical-align: middle
 }
 
 .skillbar-bar {
-    background-color: #ededed;
+    background-color: #E91E63;
     width: 100%;
     height: 5px
 }
@@ -358,20 +353,14 @@ div.skillbar-bar{
 .skillbar-bar .skillbar-child {
     width: 0;
     height: 100%;
-    background-color: #606060;
+    background-color:#E91E63;
     -webkit-transition-property: width, background-color;
     -o-transition-property: width, background-color;
     transition-property: width, background-color
 }
 
-
-.skillbar {
-    margin-bottom: 24px;
-    position: relative;
-    width: 100%;
-    display: block;
-}
 /*-------About area css ends--------------*/
+
 
 html,body{
     height: 100%;
