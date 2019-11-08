@@ -38,6 +38,13 @@ section {
 /*----------------------------------------------*/
 
 
+.modal-wrap {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    pointer-events: none;
+    z-index: 100;
+}
 
 
 
@@ -50,23 +57,27 @@ h3,h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #fd79a8;
+    /* background-color: #fd79a8; */
     content: " ";
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
 }
+
 .col:first-child {
     margin-left: 0;
 }
+
 .span-1-of-2 {
     width: 49.2%;
 }
+
 .col {
     display: block;
     float: left;
     margin: 1% 0 1% 1.6%;
 }
+
 .slideInLeft {
     -webkit-animation-name: slideInLeft;
     animation-name: slideInLeft;
@@ -114,13 +125,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30pt;
     padding: 88px;
-    margin-top: 25px;
+    font-size: 30px;
     color: white;
 }
 
 
+
+/* @media screen and (min-width: 600px)
+<style>
+section {
+    line-height: 18pt;
+    padding: 100px 0 130px 0;
+} */
 
 .fa-angle-double-down:before {
     content: "\f103";
@@ -139,12 +156,12 @@ section:nth-of-type(1) .highlight {
 
 section:nth-of-type(1) {
     padding: 0 10px;
-    color: #fff;
+    /* color: #fff; */
     height: calc(100vh + 53px);
 }
 
 .highlight {
-    color: #e83e8c;
+    color: #dd3d87;
 }
 
 
@@ -173,9 +190,9 @@ div {
     display: block;
 }
 
-@media screen and (min-width: 600px){
+/* @media screen and (min-width: 600px){
     font-size: 12pt
-}
+} */
 /*----------------------------------------------*/
 
 /* Main Navigation*/
@@ -317,15 +334,6 @@ div {
     color: #222;
     margin-bottom: 50px;
 }
-
-/* .skillbar {
-    margin-bottom: 24px;
-    position: relative;
-    width: 100%;
-    display: block;
-    color:#ff7884;
-
-} */
 
 div.skillbar-bar{
     background-color: #ff7884
@@ -477,24 +485,7 @@ a {
 	text-decoration: none;
 }
 
-/* TITLES
-===================================================== */
-/* .pageTitle {
-	display: block;
-	margin: 0 0 0.2em 0;
-	font-size: 2.2em;
-	line-height: 1em;
-	color: black;
-} */
-
-/* .pageSubtitle {
-	display: block;
-	margin: 0 0 0.4em 0;
-	font-size: 1.4em;
-	line-height: 1em;
-	color: #333;
-} */
-
+/* portfolio :start here */
 /* EFFECTS
 ===================================================== */
 .roundedCorners {
@@ -520,7 +511,7 @@ a {
 /* LAYOUT
 ===================================================== */
 .wrapper {
-	width: 600px;
+	width: 300px;
 	margin: 20px auto;
 }
 
@@ -531,24 +522,7 @@ a {
 		text-align: center;
 	}
 	
-	/* .main {
-		width: 96%;
-		padding: 2% 2% 5% 2%;
-    margin: 5% 0;
-		background: none;
-    border-bottom: solid 1px #ccc;
-	}
-	
-	.footer {
-		width: 96%;
-		padding: 2%;
-		background: #222;
-		border-top:
-			solid
-			3px
-			#086FA1;
-	}
-	 */
+
 /* GALLERY
 ===================================================== */
 .galleryItem {
@@ -629,6 +603,8 @@ a {
 	bottom: 0;
 	height: 125px;
 }
+
+s
 
 /*Modals*/
 
@@ -713,6 +689,12 @@ a {
 /*Skills*/
 
 /*----------------------------------------------*/
+/* section:nth-of-type(1) {
+    padding: 0 10px;
+    height: calc(100vh + 53px);
+} */
+
+
 .skillset {
     text-align: center;
 }
@@ -978,17 +960,5 @@ h3,h3{
 
 }
 /*-------- Contact area ends----------- */
-
-
-/*Portfolio*/
-
-/*--------------Portfolio area Ends-----------*/
-
-
-/* Styles for Modals */
-
-.project-space {
-		height: 700px;
-}
 
 
