@@ -137,6 +137,34 @@ header {
 .div.button.-link {
 
 }
+
+a:hover span {
+    padding-right: 45px;
+}
+
+.flex a {
+    background-color:white;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.5s;
+    background: #3b3251;
+}
+
+.flex h4 {
+    margin-top: 30px;
+}
+
+.flex a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+
 @media screen and (min-width: 600px){
     
 }
