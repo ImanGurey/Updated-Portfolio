@@ -479,9 +479,6 @@ img {
 
 }
 
-/* html {
-	/* background: #E4E4E4; */
-/* }  */
 
 body {
 	padding: 1px;
@@ -975,6 +972,11 @@ h3,h3{
     padding: 5%;
     background: black;
 
+}
+
+.fa-gg:before {
+    content: "\f260";
+    color:#f47884;
 }
 /*-------- Contact area ends----------- */
 
