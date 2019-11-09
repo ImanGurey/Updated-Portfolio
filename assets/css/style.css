@@ -978,6 +978,21 @@ h3,h3{
     content: "\f260";
     color:#f47884;
 }
+
+.fa-envelope-o:before {
+    content: "\f003";
+    color:#f47884;
+}
+
+.fa-phone:before {
+    content: "\f095";
+    color:#f47884;
+}
+
+.fa-home:before {
+    content: "\f015";
+    color:#f47884;
+}
 /*-------- Contact area ends----------- */
 
 
